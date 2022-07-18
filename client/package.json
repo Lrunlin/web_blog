@@ -1,0 +1,48 @@
+{
+  "name": "client",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NEXT_PUBLIC_ENV=development next dev -p 5678",
+    "dev:cache": "cross-env NEXT_PUBLIC_ENV=development nodemon server.js",
+    "build": "cross-env NEXT_PUBLIC_ENV=production next build",
+    "build:test": "cross-env NEXT_PUBLIC_ENV=development next build",
+    "start": "cross-env NEXT_PUBLIC_ENV=production nodemon server.js",
+    "start:no-cache": "cross-env NEXT_PUBLIC_ENV=production next start -p 5678",
+    "start:test": "cross-env NEXT_PUBLIC_ENV=development next start -p 5678",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "antd": "^4.17.3",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "express": "^4.18.1",
+    "lru-cache": "^7.10.1",
+    "next": "12.0.3",
+    "nodemon": "^2.0.16",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "wangeditor": "^4.7.10"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.0.7",
+    "@styled-jsx/plugin-sass": "^4.0.2",
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.34",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "cross-env": "^7.0.3",
+    "node-sass": "6.0.0",
+    "sass": "^1.43.4",
+    "typescript": "4.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:/user
+Disallow:/set
+Disallow:/write
+Disallow:/search
+Disallow:/api
+Sitemap:https://blogweb.cn/sitemap.xml
