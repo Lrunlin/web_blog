@@ -1,4 +1,4 @@
-# 个人博客系统（源码长期更新）
+# 个人博客系统
 
 <div align=center>
  <img src="https://blogweb.cn/favicon.svg" alt="Logo" title="logo" />
@@ -19,7 +19,8 @@
 系统相对完善对博客网站所需的 SEO 有处理可以在生产环境中进行使用,也可以当做毕业设计,系统提供一份用户端为 Vue3 的 CSR 版本(前端 Vue3,服务端 Node.js 使用 JavaScript),可联系 QQ:1974109227
 
 ## 相关链接
-
+网站已更新为大型多人博客系统，该系统为个人博客系统适合生产环境和毕业设计  
+以下预览地址在多人博客系统上线后会被替换，预览替换为视频[博客预览视频:https://disk.blogweb.cn/video/blog_video.mp4](https://disk.blogweb.cn/video/blog_video.mp4 "视频地址")
 1. **[博客预览地址:https://blogweb.cn](https://blogweb.cn "作者个人博客")**
 2. **[GitHub 仓库地址:https://github.com/Lrunlin/blog](https://github.com/Lrunlin/blog "GitHub仓库作为主仓库")**
 3. **[Gitee 仓库地址:https://gitee.com/awebcoder/blog](https://gitee.com/awebcoder/blog "Gitee仓库只做同步镜像不进行维护")**
