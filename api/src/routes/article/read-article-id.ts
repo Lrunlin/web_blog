@@ -1,14 +1,9 @@
 import express, { NextFunction, Response, Request } from "express";
-import fs from "fs";
 import { Article } from "@/db";
 import referrer from "@/common/middleware/referrer";
 const router = express.Router();
 import cache from "@/common/middleware/cache";
 
-interface mapping {
-  id: number;
-  router: string;
-}
 router.get(
   "/article/:id",
   referrer,
